@@ -1,0 +1,45 @@
+name: communication_flutter_arduino
+description: Data sent and response
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bluetooth_serial: ^0.4.0
+  intl: ^0.18.1
+  cupertino_icons: ^1.0.2
+  permission_handler: ^8.3.0
+  url_launcher: ^6.0.12
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+      - assets/images/logo.png
+      - assets/images/logo.svg
+      - assets/images/banner.gif
+      - assets/images/robociclope.png
+      - assets/images/potenciometro.png
+      - assets/images/motordcdir.png
+      - assets/images/motordcesq.png
+      - assets/images/ledr.png
+      - assets/images/leda.png
+      - assets/images/ledg.png
+      - assets/images/placa.png
+      - assets/images/touch.png
+      - assets/images/ultrasonico.png
+      - assets/images/servo.png
+      
+      
+      
+      
+      
